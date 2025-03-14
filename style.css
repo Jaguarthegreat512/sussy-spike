@@ -1,0 +1,19 @@
+.montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+@font-face {
+    font-family: myFirstFont;
+    src: url();
+  }
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Montserrat;
+}
