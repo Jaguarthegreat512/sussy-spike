@@ -13,7 +13,12 @@ html {
     width: 100%;
 }
 body {
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgb(157, 190, 157);
     font-family: Montserrat;
+}
+hr {
+  border: none;
+        height: 2px;
+        background: black;
+        
 }
