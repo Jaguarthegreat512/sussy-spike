@@ -1,9 +1,9 @@
-.montserrat-<uniquifier> {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
+.winky-sans-<uniquifier> {
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 @font-face {
     font-family: myFirstFont;
     src: url();
@@ -14,11 +14,26 @@ html {
 }
 body {
     background-color: rgb(157, 190, 157);
-    font-family: Montserrat;
+    font-family: Winky Sans;
 }
 hr {
   border: none;
         height: 2px;
         background: black;
-        
+}
+.container {
+  width: 100%;
+  font-size: 0;
+  display: flex;
+}
+
+.half {
+  flex: 1;
+  margin: 2%;
+  padding: 2%;
+  border-style: solid;
+  border-color: #145305;
+  font-family: Verdana;
+  font-size: 12px;
+  color:#253d5b;
 }
